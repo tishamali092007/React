@@ -1,10 +1,6 @@
 # 🐾 Pet Website — Pet Boarding & Care Service
 
 A responsive pet boarding/pet care service landing page built with **React** and **Vite**.
-
-🔗 **Live Demo:** [Add your live output/deployed link here]
-🎥 **Explanation Video:** [Add your explanation video link here]
-
 ---
 
 ## 📌 About
@@ -110,7 +106,7 @@ A full walkthrough of this project (code structure + live demo) is available her
 ## 🌐 Live Output
 
 Check out the live deployed version here:
-👉 [Add your live output/demo link here]
+👉 [[Add your live output/demo link here](https://drive.google.com/file/d/1o64dOyz4_IPCJtbpxFMSykcd7zQUv9rO/view?usp=sharing)]
 
 ---
 
