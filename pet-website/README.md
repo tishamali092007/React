@@ -1,16 +1,125 @@
-# React + Vite
+# 🐾 Pet Website — Pet Boarding & Care Service
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive pet boarding/pet care service landing page built with **React** and **Vite**.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [Add your live output/deployed link here]
+🎥 **Explanation Video:** [Add your explanation video link here]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📌 About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project is a single-page website for a pet boarding service where visitors can:
 
-## Expanding the ESLint configuration
+- Learn about the service (About Us)
+- Explore Cat Boarding and Dog Kennels services
+- Check what to bring for their pet
+- View pricing plans
+- Read blog posts
+- Get in touch via the Contact section
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- Fully responsive design
+- Component-based architecture (each section is its own React component)
+- Clean, sectioned CSS per component
+- Fast dev/build powered by Vite
+- Sections: Header, Hero, About Us, Cat Boarding, Dog Kennels, What To Bring, Contact, Pricing, Blog, Footer
+
+---
+
+## 🛠️ Tech Stack
+
+- **React 19**
+- **Vite**
+- **CSS3** (component-scoped stylesheets)
+- **ESLint** for code quality
+
+---
+
+## 📁 Project Structure
+
+```
+pet-website/
+├── public/                # Static assets (images, icons, logo)
+├── src/
+│   ├── assets/
+│   ├── Components/        # All page sections (Header, Hero, Pricing, etc.)
+│   │   ├── Header.jsx / .css
+│   │   ├── Hero.jsx / .css
+│   │   ├── About-us.jsx / .css
+│   │   ├── cat-boarding.jsx / .css
+│   │   ├── dog-kennels.jsx / .css
+│   │   ├── WhatToBring.jsx / .css
+│   │   ├── ContactSection.jsx / .css
+│   │   ├── Pricing.jsx / .css
+│   │   ├── Blog.jsx / .css
+│   │   └── Footer.jsx / .css
+│   ├── App.jsx             # Main app composing all sections
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- npm
+
+### Installation
+
+```bash
+# Clone the repository
+git clone <your-repo-link>
+
+# Navigate into the project
+cd pet-website
+
+# Install dependencies
+npm install
+
+# Start the dev server
+npm run dev
+```
+
+The app will be available at `http://localhost:5173` (default Vite port).
+
+### Other Scripts
+
+```bash
+npm run build      # Build for production
+npm run preview    # Preview the production build
+npm run lint        # Run ESLint
+```
+
+---
+
+## 🎥 Explanation Video
+
+A full walkthrough of this project (code structure + live demo) is available here:
+👉 [Add your explanation video link here]
+
+## 🌐 Live Output
+
+Check out the live deployed version here:
+👉 [Add your live output/demo link here]
+
+---
+
+## 📄 License
+
+This project is open for learning/portfolio purposes. Feel free to fork and customize.
+
+---
+
+## 🙋‍♂️ Contact
+
+If you have any questions or suggestions, feel free to reach out or open an issue.
