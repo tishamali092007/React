@@ -1,0 +1,90 @@
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 25px 0;
+}
+
+.header-container {
+    width: 90%;
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ==== Logo ==== */
+
+.Logo {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.Logo img {
+    width: 170px;
+    transform: translateY(-20px);
+    height: auto;
+    display: block;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    margin-left: auto;
+    margin-right: 55px;
+    transform: translateY(-15px);
+}
+
+.nav-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family:"poppins",sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #ffb497;
+}
+
+/* ==== Phone ==== */
+
+.phone-box{
+    display: flex;
+    align-items: center;
+    background-color: #ffb497;
+    color: #111111;
+    border-radius: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family:"poppins",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    flex-shrink: 0;
+     transform: translateY(-15px);
+}
+
+.phone-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.phone-icon i {
+    font-size: 13px;
+}
+
+.phone-box > span:last-child {
+    padding: 0 18px;
+    font-size: 14px;
+    font-weight: 600;
+}

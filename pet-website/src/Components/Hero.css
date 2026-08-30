@@ -1,0 +1,83 @@
+.hero-section {
+  height: 780px;
+  position: relative;
+  background-image: url("/hero_home_01.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.28);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: white;
+}
+
+.hero-content p {
+   color: #ffb497;
+   font-family: "Nunito Sans", sans-serif;
+   font-size: 20px;
+   font-weight: 600;
+   margin-top: 150px;
+}
+
+.hero-content h1 {
+  font-family: Pacifico, Arial, Helvetica, sans-serif; 
+  font-size: 80px;
+  font-weight: 400;
+  margin-top : -10px; 
+}
+
+.book-now-image {
+  position: absolute;
+  z-index: 10;
+  left: 50%;
+  bottom: -65px;
+  width: 500px;
+  transform: translateX(-50%);
+  transition: 0.3s;
+}
+
+.book-now-image img {
+  width: 100%;
+  display: block;
+}
+
+.book-now-image:hover {
+  transform: translateX(-50%) scale(1.05);
+}
+
+@media (max-width: 800px) {
+  .hero-section {
+    height: 650px;
+  }
+
+  .hero-content h1 {
+    font-size: 60px;
+  }
+
+  .book-now-image {
+    width: 300px;
+    bottom: -45px;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-content h1 {
+    font-size: 48px;
+  }
+
+  .book-now-image {
+    width: 240px;
+  }
+}

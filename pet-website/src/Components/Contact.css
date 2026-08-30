@@ -1,0 +1,328 @@
+.contact-section {
+  width: 100%;
+  min-height: 680px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  padding: 70px 5%;
+  overflow: hidden;
+  margin-bottom: -100px;
+}
+
+
+.contact-pets {
+  width: 55%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  margin-left: -40px;
+}
+
+.contact-pets img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin-right: 70px;
+}
+
+.green-dots {
+  position: absolute;
+  top: 270px;
+  left: 45%;
+  width: 45px;
+  height: 45px;
+  display: grid;
+  grid-template-columns: repeat(2, 10px);
+  grid-template-rows: repeat(2, 10px);
+  gap: 9px;
+  z-index: 10;
+}
+
+.green-dots span {
+  width: 9px;
+  height: 9px;
+  background: #b9e89d;
+  border-radius: 50%;
+}
+
+.blue-dots {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  width: 45px;
+  height: 45px;
+  display: grid;
+  grid-template-columns: repeat(2, 10px);
+  grid-template-rows: repeat(2, 10px);
+  gap: 9px;
+  z-index: 10;
+}
+
+.blue-dots span {
+  width: 9px;
+  height: 9px;
+  background: #a9e5ec;
+  border-radius: 50%;
+}
+
+
+/* =====================================================
+   RIGHT CONTENT
+===================================================== */
+
+.contact-content {
+  width: 45%;
+
+  padding-left: 35px;
+
+  position: relative;
+
+  z-index: 5;
+}
+
+
+/* =====================================================
+   HEADING
+===================================================== */
+
+.contact-content h2 {
+  margin: 0 0 25px;
+
+  font-family: Pacifico, Arial, Helvetica, sans-serif;
+
+  font-size: 58px;
+
+  font-weight: 400;
+
+  line-height: 1.2;
+
+  color: #111111;
+}
+
+
+/* =====================================================
+   PARAGRAPH
+===================================================== */
+
+.contact-content p {
+  max-width: 500px;
+
+  margin: 0;
+
+  font-family: "Nunito Sans", sans-serif;
+
+  font-size: 16px;
+
+  font-weight: 400;
+
+  line-height: 1.8;
+
+  color: #111111;
+}
+
+
+/* =====================================================
+   COMPLETE CONTACT IMAGE
+===================================================== */
+
+.contact-bone-image {
+  width: 390px;
+
+  max-width: 100%;
+
+  height: auto;
+
+  display: block;
+
+  margin-top: 40px;
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 1100px) {
+
+  .contact-section {
+    min-height: 620px;
+
+    padding: 60px 4%;
+  }
+
+
+  .contact-pets {
+    width: 55%;
+
+    margin-left: -30px;
+  }
+
+
+  .contact-content {
+    width: 45%;
+
+    padding-left: 20px;
+  }
+
+
+  .contact-content h2 {
+    font-size: 50px;
+  }
+
+
+  .contact-bone-image {
+    width: 330px;
+  }
+
+
+  .green-dots {
+    top: 75px;
+    left: 47%;
+  }
+
+
+  .blue-dots {
+    top: 110px;
+    left: 57%;
+  }
+
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 800px) {
+
+  .contact-section {
+    min-height: auto;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    padding: 70px 5% 90px;
+  }
+
+
+  /* PET IMAGE */
+
+  .contact-pets {
+    width: 100%;
+
+    margin-left: 0;
+  }
+
+
+  .contact-pets img {
+    width: 100%;
+  }
+
+
+  /* GREEN DOTS */
+
+  .green-dots {
+    top: 35px;
+    left: auto;
+    right: 8%;
+
+    width: 40px;
+  }
+
+
+  /* BLUE DOTS */
+
+  .blue-dots {
+    top: 70px;
+    left: 10%;
+
+    width: 40px;
+  }
+
+
+  /* CONTENT */
+
+  .contact-content {
+    width: 100%;
+
+    padding-left: 0;
+
+    margin-top: 55px;
+  }
+
+
+  .contact-content h2 {
+    font-size: 48px;
+  }
+
+
+  .contact-content p {
+    font-size: 15px;
+  }
+
+
+  .contact-bone-image {
+    width: 350px;
+
+    margin-top: 35px;
+  }
+
+}
+
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media (max-width: 500px) {
+
+  .contact-section {
+    padding: 50px 5% 70px;
+  }
+
+
+  .contact-content {
+    margin-top: 45px;
+  }
+
+
+  .contact-content h2 {
+    font-size: 40px;
+
+    margin-bottom: 20px;
+  }
+
+
+  .contact-content p {
+    font-size: 15px;
+
+    line-height: 1.7;
+  }
+
+
+  .contact-bone-image {
+    width: 100%;
+
+    max-width: 320px;
+
+    margin-top: 30px;
+  }
+
+
+  .green-dots {
+    top: 25px;
+    right: 6%;
+  }
+
+
+  .blue-dots {
+    top: 55px;
+    left: 8%;
+  }
+
+}

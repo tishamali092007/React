@@ -1,0 +1,194 @@
+.blog-section {
+  width: 100%;
+  background: #ffffff;
+  padding: 70px 10%;
+  box-sizing: border-box;
+}
+
+.blog-header {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.blog-eyebrow {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #111111;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.blog-header h2 {
+  font-family: "Pacifico", cursive;
+  font-size: 48px;
+  font-weight: 400;
+  color: #111111;
+  margin: 0;
+}
+
+.blog-cards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 25px;
+}
+
+.blog-card {
+  flex: 0 1 360px;
+  max-width: 360px;
+  box-sizing: border-box;
+}
+
+
+.blog-image {
+  position: relative;
+  width: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.blog-image img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+}
+
+.blog-date {
+  position: absolute;
+  top: 0;
+  right: -1px;
+  width: 53px;
+  padding: 12px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.blog-date i {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.blog-date .day {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 21px;
+  font-weight: 900;
+  color: #111111;
+  line-height: 1;
+}
+
+.blog-date .month {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  color: #111111;
+  letter-spacing: 1px;
+  margin-top: 2px;
+}
+
+.blue-date {
+  background: #aee5ec;
+}
+
+.green-date {
+  background: #d5efc1;
+}
+
+.yellow-date {
+  background: #fff2ae;
+}
+
+.blog-meta {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 22px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  color: #777777;
+}
+
+.blog-meta span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.blog-meta i {
+  color: #ffb499;
+  font-size: 13px;
+}
+
+.blog-card h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 21px;
+  font-weight: 800;
+  line-height: 1.3;
+  color: #111111;
+  margin: 16px 0 12px;
+}
+
+.blog-card p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #555555;
+  margin: 0;
+}
+
+/* ================= TABLET ================= */
+
+@media (max-width: 1100px) {
+
+  .blog-section {
+    padding: 60px 5%;
+  }
+
+  .blog-header h2 {
+    font-size: 44px;
+  }
+
+  .blog-cards {
+    gap: 18px;
+  }
+
+  .blog-image img {
+    height: 220px;
+  }
+
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 800px) {
+
+  .blog-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog-card {
+    width: 100%;
+    max-width: 420px;
+  }
+
+}
+
+/* ================= SMALL MOBILE ================= */
+
+@media (max-width: 500px) {
+
+  .blog-header h2 {
+    font-size: 36px;
+  }
+
+  .blog-card h3 {
+    font-size: 19px;
+  }
+
+}

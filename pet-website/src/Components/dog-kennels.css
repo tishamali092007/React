@@ -1,0 +1,328 @@
+.dog-section {
+  width: 100%;
+  min-height: 780px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  overflow: hidden;
+  padding: 80px 5%;
+  margin-bottom: -30px;
+}
+
+.dog-content {
+  width: 45%;
+  position: relative;
+  z-index: 5;
+  padding-left: 7%;
+}
+
+.dog-content h2 {
+  font-family: Pacifico, Arial, Helvetica, sans-serif;
+  font-size: 55px;
+  font-weight: 200;
+  line-height: 1.2;
+  color: #111111;
+  margin: 0 0 25px;
+}
+
+
+.dog-content p {
+  max-width: 600px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #111111;
+  margin: 0;
+}
+
+.dog-features {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 55px;
+}
+
+
+.dog-feature {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+
+.dog-feature i {
+  font-size: 40px;
+}
+
+
+.dog-feature.eat-feature i {
+  color: #ffab91;
+}
+
+
+.dog-feature.play-feature i {
+  color: #b8e6a5;
+}
+
+
+.dog-feature.brush-feature i {
+  color: #f2dc6b;
+}
+
+
+.dog-feature span {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  color: #111111;
+}
+
+.dog-buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 75px;
+}
+
+
+.dog-buttons a {
+  height: 55px;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  text-decoration: none;
+  color: #111111;
+}
+
+
+.dog-book-btn {
+  background: #ffb499;
+  border: 2px solid #ffb499;
+}
+
+
+.dog-view-btn {
+  background: #ffffff;
+  border: 2px solid #111111;
+}
+
+
+.dog-book-btn:hover {
+  background: #ffffff;
+}
+
+
+.dog-view-btn:hover {
+  background: #111111;
+  color: #ffffff;
+}
+
+.dog-image {
+  width: 65%;
+  position: relative;
+  z-index: 1;
+  margin-right: -120px;
+  overflow: visible;
+}
+
+
+.dog-main-image {
+  width: 100%;
+  max-width: 1000px;
+  position: relative;
+  left: -20px;
+  height: auto;
+  display: block;
+}
+
+
+.dog-top-dot {
+  position: absolute;
+  top: 40px;
+  left: 48%;
+  width: 50px;
+  height: 50px;
+  z-index: 10;
+}
+
+
+/* ================= MIDDLE DOT ================= */
+
+.dog-middle-dot {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  z-index: 10;
+}
+
+
+/* ================= TABLET ================= */
+
+@media (max-width: 1100px) {
+
+  .dog-section {
+    padding: 70px 4%;
+  }
+
+  .dog-content {
+    width: 45%;
+    padding-left: 3%;
+  }
+
+  .dog-content h2 {
+    font-size: 50px;
+  }
+
+  .dog-features {
+    gap: 30px;
+  }
+
+  .dog-feature i {
+    font-size: 30px;
+  }
+
+  .dog-image {
+    width: 58%;
+    margin-right: -100px;
+  }
+
+  .dog-top-dot {
+    width: 40px;
+    top: -40px;
+  }
+
+  .dog-middle-dot {
+    width: 40px;
+    left: 5px;
+  }
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 800px) {
+
+  .dog-section {
+    flex-direction: column;
+
+    align-items: center;
+
+    padding: 70px 5%;
+  }
+
+
+  .dog-content {
+    width: 100%;
+
+    padding-left: 0;
+
+    order: 1;
+  }
+
+
+  .dog-content h2 {
+    font-size: 48px;
+  }
+
+
+  .dog-content p {
+    max-width: 100%;
+  }
+
+
+  .dog-features {
+    flex-wrap: wrap;
+
+    gap: 30px;
+
+    margin-top: 40px;
+  }
+
+
+  .dog-buttons {
+    margin-top: 50px;
+
+    flex-wrap: wrap;
+  }
+
+
+  .dog-image {
+    width: 100%;
+
+    margin-right: 0;
+
+    margin-top: 70px;
+
+    order: 2;
+  }
+
+
+  .dog-main-image {
+    width: 100%;
+  }
+
+
+  .dog-top-dot {
+    top: -40px;
+    left: 75%;
+
+    width: 40px;
+  }
+
+
+  .dog-middle-dot {
+    top: 45%;
+    left: 2%;
+
+    width: 40px;
+  }
+}
+
+
+/* ================= SMALL MOBILE ================= */
+
+@media (max-width: 500px) {
+
+  .dog-content h2 {
+    font-size: 40px;
+  }
+
+
+  .dog-content p {
+    font-size: 16px;
+  }
+
+
+  .dog-features {
+    gap: 20px;
+  }
+
+
+  .dog-buttons a {
+    height: 52px;
+
+    padding: 0 25px;
+
+    font-size: 14px;
+  }
+
+
+  .dog-top-dot {
+    width: 35px;
+
+    top: -30px;
+  }
+
+
+  .dog-middle-dot {
+    width: 35px;
+  }
+}
