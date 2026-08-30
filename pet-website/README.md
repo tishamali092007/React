@@ -1,121 +1,124 @@
-# 🐾 Pet Website — Pet Boarding & Care Service
+# 🐾 Pet Boarding Website
 
-A responsive pet boarding/pet care service landing page built with **React** and **Vite**.
----
+A modern and responsive **Pet Boarding Website** built using **React JS and CSS**.
+The website is designed for a pet boarding service where users can explore boarding services, pricing, pet-care information, and contact details.
 
-## 📌 About
+## 🌐 Project Overview
 
-This project is a single-page website for a pet boarding service where visitors can:
+This project focuses on creating a clean, attractive, and responsive pet boarding website using reusable React components.
 
-- Learn about the service (About Us)
-- Explore Cat Boarding and Dog Kennels services
-- Check what to bring for their pet
-- View pricing plans
-- Read blog posts
-- Get in touch via the Contact section
+The website includes sections for:
 
----
+* 🏠 Header & Navigation
+* 🐾 Hero Section
+* ℹ️ About Us
+* 🐱 Cat Boarding
+* 🐶 Dog Boarding
+* 🎒 What to Bring
+* 📞 Contact Us
+* 💰 Pricing
+* 📝 Blog
+* 🔗 Footer
+
+## 🛠️ Technologies Used
+
+* **React JS**
+* **JavaScript**
+* **JSX**
+* **CSS3**
+* **Font Awesome**
+* **Google Fonts**
+* **Vite**
 
 ## ✨ Features
 
-- Fully responsive design
-- Component-based architecture (each section is its own React component)
-- Clean, sectioned CSS per component
-- Fast dev/build powered by Vite
-- Sections: Header, Hero, About Us, Cat Boarding, Dog Kennels, What To Bring, Contact, Pricing, Blog, Footer
-
----
-
-## 🛠️ Tech Stack
-
-- **React 19**
-- **Vite**
-- **CSS3** (component-scoped stylesheets)
-- **ESLint** for code quality
-
----
+* Responsive design for desktop, tablet, and mobile
+* Reusable React components
+* Separate CSS files for different sections
+* Pet boarding service information
+* Pricing cards
+* Contact section
+* Blog section
+* Newsletter subscription area
+* Font Awesome icons
+* Attractive pet-themed UI
+* Responsive layouts using CSS media queries
 
 ## 📁 Project Structure
 
-```
+```text
 pet-website/
-├── public/                # Static assets (images, icons, logo)
+│
+├── public/
+│   ├── images
+│   └── other assets
+│
 ├── src/
-│   ├── assets/
-│   ├── Components/        # All page sections (Header, Hero, Pricing, etc.)
-│   │   ├── Header.jsx / .css
-│   │   ├── Hero.jsx / .css
-│   │   ├── About-us.jsx / .css
-│   │   ├── cat-boarding.jsx / .css
-│   │   ├── dog-kennels.jsx / .css
-│   │   ├── WhatToBring.jsx / .css
-│   │   ├── ContactSection.jsx / .css
-│   │   ├── Pricing.jsx / .css
-│   │   ├── Blog.jsx / .css
-│   │   └── Footer.jsx / .css
-│   ├── App.jsx             # Main app composing all sections
-│   ├── App.css
-│   ├── index.css
+│   ├── Components/
+│   │   ├── Header.jsx
+│   │   ├── Header.css
+│   │   ├── Hero.jsx
+│   │   ├── Hero.css
+│   │   ├── About-us.jsx
+│   │   ├── About-us.css
+│   │   ├── cat-boarding.jsx
+│   │   ├── cat-boarding.css
+│   │   ├── dog-kennels.jsx
+│   │   ├── dog-kennels.css
+│   │   ├── WhatToBring.jsx
+│   │   ├── WhatToBring.css
+│   │   ├── ContactSection.jsx
+│   │   ├── Contact.css
+│   │   ├── Pricing.jsx
+│   │   ├── Pricing.css
+│   │   ├── Blog.jsx
+│   │   ├── Blog.css
+│   │   ├── Footer.jsx
+│   │   └── Footer.css
+│   │
+│   ├── App.jsx
 │   └── main.jsx
-├── index.html
+│
 ├── package.json
-└── vite.config.js
+└── README.md
 ```
 
----
+## ▶️ How to Run
 
-## 🚀 Getting Started
-
-### Prerequisites
-- [Node.js](https://nodejs.org/) (v18 or higher recommended)
-- npm
-
-### Installation
+Clone the repository and install the required dependencies:
 
 ```bash
-# Clone the repository
-git clone <your-repo-link>
-
-# Navigate into the project
-cd pet-website
-
-# Install dependencies
 npm install
+```
 
-# Start the dev server
+Start the development server:
+
+```bash
 npm run dev
 ```
 
-The app will be available at `http://localhost:5173` (default Vite port).
+Then open the local URL provided by Vite in your browser.
 
-### Other Scripts
+## 🎥 Project Videos
 
-```bash
-npm run build      # Build for production
-npm run preview    # Preview the production build
-npm run lint        # Run ESLint
-```
+### 🌐 Website Output
 
----
+[View Website Output Video](https://drive.google.com/file/d/1o64dOyz4_IPCJtbpxFMSykcd7zQUv9rO/view?usp=sharing)
 
-## 🎥 Explanation Video
+### 🎤 Project Explanation
 
-A full walkthrough of this project (code structure + live demo) is available here:
-👉 [Add your explanation video link here]
+[Watch Project Explanation Video](https://drive.google.com/file/d/1v7QaOk8Xa7AZUXlDiavNJBm7pI5xnSzF/view?usp=sharing)
 
-## 🌐 Live Output
+## 📌 Project Highlights
 
-Check out the live deployed version here:
-👉 [[Add your live output/demo link here](https://drive.google.com/file/d/1o64dOyz4_IPCJtbpxFMSykcd7zQUv9rO/view?usp=sharing)]
+The main goal of this project was to practice building a complete website using **React components and CSS**.
 
----
+Each major section is created as a separate component, making the project easier to understand, modify, and maintain.
 
-## 📄 License
+The project also focuses on **responsive design**, allowing the website layout to adapt to different screen sizes.
 
-This project is open for learning/portfolio purposes. Feel free to fork and customize.
+## 👩‍💻 Author
 
----
+**Tisha Mali**
 
-## 🙋‍♂️ Contact
-
-If you have any questions or suggestions, feel free to reach out or open an issue.
+Built with ❤️ using React JS and CSS.
