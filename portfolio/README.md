@@ -34,135 +34,149 @@ This portfolio website is created to present my academic background, Full Stack 
 
 ## Project Structure
 
-```text
-src/
-├── Components/
-│   ├── About.jsx
-│   ├── Achievements.jsx
-│   ├── Contact.jsx
-│   ├── Education.jsx
-│   ├── Experience.jsx
-│   ├── Footer.jsx
-│   ├── Hero.jsx
-│   ├── Nav.jsx
-│   ├── Projects.jsx
-│   ├── Skills.jsx
-│   └── TimelineItem.jsx
-├── App.jsx
-├── App.css
-├── index.css
-└── main.jsx
-Project Explanation Video
+    src/
+    ├── Components/
+    │   ├── About.jsx
+    │   ├── Achievements.jsx
+    │   ├── Contact.jsx
+    │   ├── Education.jsx
+    │   ├── Experience.jsx
+    │   ├── Footer.jsx
+    │   ├── Hero.jsx
+    │   ├── Nav.jsx
+    │   ├── Projects.jsx
+    │   ├── Skills.jsx
+    │   └── TimelineItem.jsx
+    ├── App.jsx
+    ├── App.css
+    ├── index.css
+    └── main.jsx
 
-I have created a short 3–4 minute video explaining my React Portfolio Website, its features, React concepts, and complete website output.
+## Project Explanation Video
 
-🎥 Explanation Video
+I have created a short **3–4 minute video** explaining my React Portfolio Website, its features, React concepts, and complete website output.
 
-Click here to watch the Project Explanation Video
+### 🎥 Explanation Video
 
-🎬 Project Output Video
+[Click here to watch the Project Explanation Video](https://drive.google.com/file/d/1UVuv0_o-X6Gko5XvcVyN7563sgX9q00a/view?usp=sharing)
 
-Click here to watch the Project Output Video
+### 🎬 Project Output Video
 
-How to Run the Project
-1. Clone the Repository
-git clone <YOUR-GITHUB-REPOSITORY-URL>
-2. Open the Project Folder
-cd portfolio
-3. Install Dependencies
-npm install
-4. Start the Development Server
-npm run dev
+[Click here to watch the Project Output Video](https://drive.google.com/file/d/1MKCgi3DH1uyh_8iMY8g-4uSh6ngwo9gf/view?usp=sharing)
+
+## How to Run the Project
+
+### 1. Clone the Repository
+
+    git clone <YOUR-GITHUB-REPOSITORY-URL>
+
+### 2. Open the Project Folder
+
+    cd portfolio
+
+### 3. Install Dependencies
+
+    npm install
+
+### 4. Start the Development Server
+
+    npm run dev
 
 After running the command, open the local URL shown in the terminal.
 
-Build for Production
-npm run build
-Portfolio Sections
-Hero Section
+## Build for Production
+
+    npm run build
+
+## Portfolio Sections
+
+### Hero Section
 
 The Hero section introduces me as a BCA student and aspiring Full Stack Developer.
 
 It contains an animated typing effect and buttons for quickly accessing the Projects and Contact sections.
 
-About Section
+### About Section
 
 The About section provides a brief introduction about me along with basic profile information, education, development interests, and career goals.
 
-Experience Section
+### Experience Section
 
-The Experience section presents my Full Stack Development training at Red & White Multimedia Education and my self-directed web development practice.
+The Experience section presents my Full Stack Development training at **Red & White Multimedia Education** and my self-directed web development practice.
 
-Education Section
+### Education Section
 
 The Education section displays my academic background in a timeline format.
 
-Projects Section
+### Projects Section
 
 The Projects section showcases my web development projects.
 
 Projects included in the portfolio are:
 
-Pet Website
-E-Commerce Website
-Coffee Shop Website
-Additional Web Projects
+- Pet Website
+- E-Commerce Website
+- Coffee Shop Website
+- Additional Web Projects
 
 Each project is displayed using a reusable project card with information about the project and technologies used.
 
-Skills Section
+### Skills Section
 
 The Skills section displays my technical skills in different categories:
 
-Frontend
-Programming & CS
-Practices
-Achievements Section
+- Frontend
+- Programming & CS
+- Practices
+
+### Achievements Section
 
 The Achievements section highlights my certifications, academic performance, and completed web development projects.
 
-Contact Section
+### Contact Section
 
 The Contact section provides different ways to connect with me.
 
 It includes:
 
-Email
-Phone
-LinkedIn
-GitHub
-Key React Concepts Used
+- Email
+- Phone
+- LinkedIn
+- GitHub
+
+## Key React Concepts Used
 
 This project helped me practice the following React concepts:
 
-Functional Components
-Props
-useState
-useEffect
-Custom Hook
-Array map()
-Conditional Rendering
-Component Reusability
-Component-based Structure
-IntersectionObserver
-Responsive Design
+- Functional Components
+- Props
+- useState
+- useEffect
+- Custom Hook
+- Array map()
+- Conditional Rendering
+- Component Reusability
+- Component-based Structure
+- IntersectionObserver
+
+## Responsive Design
 
 The portfolio is designed to be responsive and user-friendly on different screen sizes.
 
 On smaller screens, the navigation menu changes into a hamburger menu and the layout automatically adjusts according to the screen size.
 
-Author
+## Author
 
-Tisha Mayurkumar Mali
+**Tisha Mayurkumar Mali**
 
 BCA Student | Aspiring Full Stack Developer
 
 Surat, Gujarat, India
 
-Purpose
+## Purpose
 
 This project is created as a personal portfolio and learning project to practice React.js, component-based development, JavaScript, JSX, CSS, responsive design, and modern UI development.
 
-License
+## License
 
 This project is created for personal portfolio and learning purposes.
