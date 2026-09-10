@@ -6,12 +6,9 @@ A modern, responsive personal portfolio website built with **React + Vite**.
 
 This portfolio website is created to present my academic background, Full Stack Development training, technical skills, projects, achievements, and contact information in a modern developer-focused design.
 
-The project is designed using React components and responsive CSS so that it works on both desktop and mobile screens.
-
 ## Features
 
-- Responsive navigation bar
-- Active section highlighting
+- Responsive navigation bar with active section highlighting
 - Animated typing effect in Hero section
 - About Me section
 - Experience section
@@ -19,8 +16,7 @@ The project is designed using React components and responsive CSS so that it wor
 - Projects showcase
 - Skills grouped by category
 - Achievements and certifications
-- Contact section
-- Email, Phone, LinkedIn and GitHub links
+- Contact section with Email, Phone, LinkedIn and GitHub
 - Responsive hamburger menu for mobile
 - Smooth scrolling
 - Modern dark developer-style UI
@@ -56,18 +52,17 @@ src/
 ├── App.css
 ├── index.css
 └── main.jsx
+Project Explanation Video
 
-## 🎥 Project Explanation Video
+I have created a short 3–4 minute video explaining my React Portfolio Website, its features, React concepts, and complete website output.
 
-I have created a short 3–4 minute video explaining my React Portfolio Website, its features, React concepts, and complete output.
+🎥 Explanation Video
 
-### Project Explanation Video
+Click here to watch the Project Explanation Video
 
-[Click here to watch the Project Explanation Video](https://drive.google.com/file/d/1UVv0_o-X6Gko5XvcVvN7563sgX9q00a/view?usp=sharing)
+🎬 Project Output Video
 
-### Project Output Video
-
-[Click here to watch the Project Output Video](https://drive.google.com/file/d/1MKCgi3DH1uyh_8iMY8g-4uSh6ngwo9gf/view?usp=sharing)
+Click here to watch the Project Output Video
 
 How to Run the Project
 1. Clone the Repository
@@ -88,7 +83,7 @@ Hero Section
 
 The Hero section introduces me as a BCA student and aspiring Full Stack Developer.
 
-It contains animated typing text and buttons for quickly accessing the Projects and Contact sections.
+It contains an animated typing effect and buttons for quickly accessing the Projects and Contact sections.
 
 About Section
 
@@ -117,9 +112,7 @@ Each project is displayed using a reusable project card with information about t
 
 Skills Section
 
-The Skills section displays my technical skills in different categories.
-
-Categories include:
+The Skills section displays my technical skills in different categories:
 
 Frontend
 Programming & CS
@@ -152,38 +145,11 @@ Conditional Rendering
 Component Reusability
 Component-based Structure
 IntersectionObserver
-Project Explanation Video
-
-I have created a short 3–4 minute project explanation video for this portfolio.
-
-The video demonstrates the complete website output and explains the main features and React concepts used in the project.
-
-The video covers:
-Project introduction
-Navigation bar
-Hero section
-Animated typing effect
-About section
-Experience section
-Education section
-Projects section
-Skills section
-Achievements section
-Contact section
-Responsive design
-React concepts used
-Complete website output and functionality
-Watch Project Explanation Video
-
-Click here to watch the Project Explanation Video
-
-Replace YOUR_GOOGLE_DRIVE_VIDEO_LINK with the Google Drive sharing link of the project explanation video.
-
 Responsive Design
 
 The portfolio is designed to be responsive and user-friendly on different screen sizes.
 
-On smaller screens, the navigation menu changes into a hamburger menu and the content automatically adjusts according to the screen size.
+On smaller screens, the navigation menu changes into a hamburger menu and the layout automatically adjusts according to the screen size.
 
 Author
 
