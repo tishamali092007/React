@@ -59,17 +59,27 @@ src/
 
 ## 🎥 Project Explanation Video
 
-I have created a short 3–4 minute project explanation video for this portfolio.
+I have created a short 3–4 minute video explaining my React Portfolio Website, its features, React concepts, and complete output.
 
-The video demonstrates the complete website output and explains the main features and React concepts used in the project.
+### ▶️ Project Explanation Video
 
-### Watch Project Explanation Video
+<a href="https://drive.google.com/file/d/1UVv0_o-X6Gko5XvcVvN7563sgX9q00a/view?usp=sharing">
+  <img src="https://drive.google.com/thumbnail?id=1UVv0_o-X6Gko5XvcVvN7563sgX9q00a&sz=w1000" alt="Project Explanation Video" width="800">
+</a>
 
-[Click here to watch the Project Explanation Video](https://drive.google.com/file/d/1UVuv0_o-X6Gko5XvcVyN7563sgX9q00a/view?usp=sharing)
+**Click the image above to watch the Project Explanation Video.**
 
-### Output video
+---
 
-[Click here to watch the Project Output Video](https://drive.google.com/file/d/1MKCgi3DH1uyh_8iMY8g-4uSh6ngwo9gf/view?usp=sharing)
+## 🎬 Project Output Video
+
+This video shows the complete working output of the React Portfolio Website.
+
+<a href="https://drive.google.com/file/d/1MKC3DH1uyh_8iMY8g-4uSh6ngwo9gf/view?usp=sharing">
+  <img src="https://drive.google.com/thumbnail?id=1MKC3DH1uyh_8iMY8g-4uSh6ngwo9gf&sz=w1000" alt="Project Output Video" width="800">
+</a>
+
+**Click the image above to watch the complete Project Output Video.**
 
 How to Run the Project
 1. Clone the Repository
