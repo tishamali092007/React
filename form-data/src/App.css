@@ -1,0 +1,286 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f8;
+  color: #1f2937;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.header {
+  background: #172033;
+  color: white;
+  padding: 28px 7%;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.header p {
+  margin: 6px 0 0;
+  color: #b8c1d1;
+  font-size: 14px;
+}
+
+main {
+  width: 90%;
+  max-width: 1200px;
+  margin: 35px auto;
+}
+
+.form-card,
+.table-card {
+  background: white;
+  border-radius: 14px;
+  padding: 28px;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
+}
+
+.section-title,
+.table-header {
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+}
+
+.section-title h2,
+.table-header h2 {
+  margin: 0;
+  font-size: 22px;
+  color: #172033;
+}
+
+.section-title p,
+.table-header p {
+  margin: 6px 0 0;
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 7px;
+  color: #374151;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 11px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 7px;
+  font-size: 14px;
+  outline: none;
+  background: white;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #172033;
+  box-shadow: 0 0 0 2px rgba(23, 32, 51, 0.08);
+}
+
+.form-group span {
+  color: #dc2626;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 20px;
+  padding-top: 9px;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: normal;
+}
+
+.add-btn {
+  margin-top: 25px;
+  width: 100%;
+  border: none;
+  border-radius: 7px;
+  padding: 12px;
+  background: #172033;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: #27344d;
+}
+
+.success {
+  background: #e8f7ee;
+  color: #15803d;
+  padding: 12px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 1000px;
+}
+
+th {
+  background: #172033;
+  color: white;
+  padding: 13px 12px;
+  text-align: left;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+td {
+  padding: 13px 12px;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+tbody tr:hover {
+  background: #f8fafc;
+}
+
+.delete-btn {
+  border: none;
+  background: #fee2e2;
+  color: #dc2626;
+  padding: 7px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.delete-btn:hover {
+  background: #fecaca;
+}
+
+.empty {
+  text-align: center;
+  padding: 50px 20px;
+  color: #6b7280;
+}
+
+.empty h3 {
+  color: #374151;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 700px) {
+  main {
+    width: 94%;
+    margin: 20px auto;
+  }
+
+  .form-card,
+  .table-card {
+    padding: 18px;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .header {
+    padding: 22px 5%;
+  }
+
+  .header h1 {
+    font-size: 23px;
+  }
+}
+
+/* Updated heading and action buttons */
+.header {
+  text-align: center;
+}
+
+.header > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+.form-actions .add-btn {
+  margin-top: 0;
+}
+
+.cancel-btn {
+  margin-top: 0;
+  flex: 1;
+  border: 1px solid #d1d5db;
+  border-radius: 7px;
+  padding: 12px;
+  background: white;
+  color: #374151;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cancel-btn:hover {
+  background: #f3f4f6;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 7px;
+}
+
+.edit-btn {
+  border: none;
+  background: #e0e7ff;
+  color: #3730a3;
+  padding: 7px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.edit-btn:hover {
+  background: #c7d2fe;
+}
