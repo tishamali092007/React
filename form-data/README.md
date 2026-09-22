@@ -159,13 +159,14 @@ http://localhost:5173
 
 ## 🎥 Project Videos
 
-### Output Video
+### 🌐  Output video
 
-[Watch Output Video]
+[View Website Output Video](https://drive.google.com/file/d/18EFUidueKMZxpOWdJhtyATZBbU5dCfT9/view?usp=sharing)
 
-### Explanation Video
+### 🎤 Project Explanation
 
-[Watch Explanation Video]([./videos/explanation-video.mp4](https://drive.google.com/file/d/1xeBV51EU1J8vjxWWQ63viBm5zTeDvAdB/view?usp=sharing))
+[Watch Project Explanation Video](https://drive.google.com/file/d/1xeBV51EU1J8vjxWWQ63viBm5zTeDvAdB/view?usp=sharing)
+
 
 ---
 
