@@ -161,11 +161,11 @@ http://localhost:5173
 
 ### Output Video
 
-[Watch Output Video](./videos/output-demo.mp4)
+[Watch Output Video]
 
 ### Explanation Video
 
-[Watch Explanation Video](./videos/explanation-video.mp4)
+[Watch Explanation Video]([./videos/explanation-video.mp4](https://drive.google.com/file/d/1xeBV51EU1J8vjxWWQ63viBm5zTeDvAdB/view?usp=sharing))
 
 ---
 
