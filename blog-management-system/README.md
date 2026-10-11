@@ -266,7 +266,7 @@ The Admin Dashboard provides the interface for managing blog posts.
 
 The code explanation video explains the project structure, React components, state management, API integration, and CRUD operations.
 
-[▶️ Watch Project Code Explanation Video](https://drive.google.com/file/d/1AK7ljdbAC6qTWmYEBG7dO3-myC7dbQJI/view?usp=sharing)
+[▶️ Watch Project Code Explanation Video](https://drive.google.com/file/d/1eYCbm9LLa1fM3DOqKdQ_8KMUP6Rsc5Df/view?usp=sharing)
 
 ### How to Add Google Drive Links
 
