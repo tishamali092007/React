@@ -309,18 +309,3 @@ Through this project, I learned:
 
 ---
 
-## 👨‍💻 Author
-
-**Name:** Your Name
-
-**Project Title:** Blog Management System
-
-**Frontend:** React.js
-
-**Backend:** JSON Server
-
----
-
-## 📄 License
-
-This project was developed for educational and learning purposes.
