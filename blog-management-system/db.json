@@ -1,0 +1,123 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Getting Started with React",
+      "author": "Tisha MAli",
+      "email": "amit@example.com",
+      "category": "Technology",
+      "image": "https://picsum.photos/seed/react1/600/400",
+      "description": "A beginner friendly introduction to React and its core ideas.",
+      "content": "React is a JavaScript library for building user interfaces. In this blog we learn components, props, state and hooks step by step with simple examples.",
+      "tags": [
+        "react",
+        "javascript",
+        "frontend"
+      ],
+      "publishDate": "2026-09-01",
+      "status": "Published"
+    },
+    {
+      "title": "How to Learn Coding Fast",
+      "author": "Tisha Patel",
+      "email": "tisha@example.com",
+      "category": "Education",
+      "image": "https://picsum.photos/seed/coding5/600/400",
+      "description": "Simple and practical tips to learn programming faster as a beginner.",
+      "content": "Start with one language and practice daily. Build small projects, read other people's code, and do not skip the basics. Consistency matters more than speed, so even one hour every day gives great results in a few months.",
+      "tags": [
+        "coding",
+        "learning",
+        "beginners"
+      ],
+      "publishDate": "2026-10-05",
+      "status": "Published",
+      "id": 5
+    },
+    {
+      "title": "Best Street Food of Surat",
+      "author": "Jiya Prajapati",
+      "email": "Jiya@gmail.com",
+      "category": "Food",
+      "image": "https://picsum.photos/seed/food6/600/400",
+      "description": "A tasty guide to the most famous street food items you must try in Surat.",
+      "content": "Surat is famous for its food. Try Locho, Ponk, Khaman, Ghari and Surati Undhiyu when you visit. Every area of the city has its own special stall, so explore with friends and enjoy the real taste of Surat.",
+      "tags": [
+        "food",
+        "surat",
+        "street food"
+      ],
+      "publishDate": "2026-10-10",
+      "status": "Published",
+      "id": 6
+    },
+    {
+      "title": "Morning Routine for Productivity",
+      "author": "Vibhuti Gadhvi",
+      "email": "Vibhuti@gmail.com",
+      "category": "Lifestyle",
+      "image": "https://picsum.photos/seed/morning7/600/400",
+      "description": "Build a simple morning routine that keeps you focused and energetic all day.",
+      "content": "Wake up early, drink water, stretch for ten minutes and plan your top three tasks for the day. Avoid checking your phone for the first thirty minutes. A calm start makes the whole day more productive.",
+      "tags": [
+        "lifestyle",
+        "productivity",
+        "routine"
+      ],
+      "publishDate": "2026-10-18",
+      "status": "Draft",
+      "id": 7
+    },
+    {
+      "title": "Why Every Student Should Learn Git",
+      "author": "Mayur Mali",
+      "email": "Mayur@gmail.com",
+      "category": "Technology",
+      "image": "https://picsum.photos/seed/git8/600/400",
+      "description": "Learn why Git and GitHub are must have skills for every student developer.",
+      "content": "Git helps you track changes, work in a team and never lose your code. Start with simple commands like init, add, commit and push. Upload your projects to GitHub so recruiters can see your work and your growth.",
+      "tags": [
+        "git",
+        "github",
+        "developer"
+      ],
+      "publishDate": "2026-02-10",
+      "status": "Published",
+      "id": 8
+    },
+    {
+      "title": "Simple Yoga for Busy People",
+      "author": "Mayank Patel",
+      "email": "Mayank@07gmail.com",
+      "category": "Health",
+      "image": "https://picsum.photos/seed/yoga9/600/400",
+      "description": "Easy yoga poses you can do in just fifteen minutes to feel fresh and relaxed.",
+      "content": "Yoga does not need a lot of time. Try Surya Namaskar, Tadasana and Child pose every morning. Breathe slowly and stay regular. In a few weeks you will notice better sleep, less stress and more energy.",
+      "tags": [
+        "yoga",
+        "health",
+        "fitness"
+      ],
+      "publishDate": "2026-03-10",
+      "status": "Published",
+      "id": 9
+    },
+    {
+      "title": "Study Plan for Exam Season",
+      "author": "Neha Prajapati",
+      "email": "Neha@02gmail.com",
+      "category": "Education",
+      "image": "https://picsum.photos/seed/study11/600/400",
+      "description": "A practical day by day study plan that helps you prepare calmly for your exams.",
+      "content": "Divide your syllabus into small parts and give each day a clear target. Study the hardest subject first, take a short break every hour and revise every night. Sleep well before the exam day for better memory.",
+      "tags": [
+        "study",
+        "exam",
+        "education"
+      ],
+      "publishDate": "2026-09-10",
+      "status": "Draft",
+      "id": 10
+    }
+  ]
+}
